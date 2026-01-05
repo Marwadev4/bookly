@@ -19,14 +19,17 @@ abstract class AppRouter {
     routes: [
       GoRoute(
         path: '/',
+        name: 'splashView',
         builder: (context, state) => const SplashView(),
       ),
       GoRoute(
         path: kHomeView,
+        name: 'homeView',
         builder: (context, state) => const HomeView(),
       ),
       GoRoute(
         path: kBookDetailsBodyView,
+        name: 'bookDetailsBodyView',
         builder: (context, state) => BlocProvider(
           create: (context) => SimilarBooksCubit(
             getIt.get<HomeRepoImpl>(),
