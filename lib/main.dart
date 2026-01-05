@@ -41,6 +41,7 @@ class BooklyApp extends StatelessWidget {
         builder: (_, child) {
           return ConnectivityAppWrapper(
             app: MaterialApp.router(
+              debugShowCheckedModeBanner: false,
               routerConfig: AppRouter.router,
               title: 'Bookly App',
               showSemanticsDebugger: false,
