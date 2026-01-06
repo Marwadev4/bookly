@@ -11,6 +11,9 @@ Bookly is a Flutter application that allows users to browse and search for books
 - **Search**: Search functionality to find specific books.
 - **Responsive Design**: Adapts to different screen sizes using `flutter_screenutil`.
 
+## ScreenShots
+
+
 ## Architecture
 
 This project follows **Clean Architecture** principles to ensure separation of concerns and maintainability:
